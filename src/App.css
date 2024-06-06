@@ -1,0 +1,31 @@
+
+
+/* hero 
+----------------------------- */
+.hero-bg {
+    background-image: url('./assets/bg/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/* Department 
+-------------------------- */
+h6::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 2px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
