@@ -20,8 +20,8 @@ const Newsletter = () => {
 
             <div className="mt-12">
                 <div className="join text-xs w-full">
-                    <input type="text" placeholder="your email" className="input input-bordered join-item w-full" />
-                    <button className="btn btn-primary join-item">Subscribe</button>
+                    <input type="text" placeholder="your email" className="news-input" />
+                    <button className="input-btn">Subscribe</button>
                 </div>
             </div>
 

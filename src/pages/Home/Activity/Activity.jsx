@@ -5,7 +5,7 @@ import vdo from '.././../../assets/vdo/vdo.mp4'
 
 const Activity = () => {
     return (
-        <div className="activity">
+        <div id="activity" className="activity">
 
             {/* left side  */}
             <div className=" activity-left ">

@@ -1,12 +1,13 @@
 import { IoIosArrowForward } from "react-icons/io";
 import Title from "../../../component/Title/Title";
-import img1 from '../../../assets/icon/d1.png'
 import { FaHandHoldingHeart } from "react-icons/fa";
+import { BsFillFileEarmarkMedicalFill } from "react-icons/bs";
+import { FaNotesMedical } from "react-icons/fa6";
 
 
 const DoctorSpecialize = () => {
     return (
-        <div className="specialize ">
+        <div id="specialize" className="specialize ">
 
             <div className="space-y-3 xl:basis-[40%]">
                 <Title
@@ -24,45 +25,45 @@ const DoctorSpecialize = () => {
             </div>
 
 
-            <div className="flex flex-col sm:flex-row items-center gap-6 ">
+            <div className="ds-container">
                 <div className="space-y-6">
                     <div className="ds-container-iteam">
-                        
-                        <div className="p-5 m-5 bg-[#95DBE5FF] w-fit rounded-full">
-                        <FaHandHoldingHeart className="text-4xl text-white"/>
+
+                        <div className="ds-icon">
+                            <FaHandHoldingHeart className="text-4xl text-white" />
                         </div>
-                        
-                        <div className="p-5">
-                            <h6>Cancer Care</h6>
+
+                        <div className="p-5 sp">
+                            <p className="h6">Book now</p>
                             <p className="text-xs">The gradual
                                 accumulation of
-                                information about </p>
+                                information about  </p>
 
                         </div>
                     </div>
                     <div className="ds-container-iteam">
-                        <figure className="px-10 pt-10">
-                            <img src={img1} alt="Shoes" className="rounded-xl" />
-                        </figure>
+                        <div className="ds-icon">
+                            <BsFillFileEarmarkMedicalFill className="text-4xl text-white" />
+                        </div>
                         <div className="p-5">
-                            <h6>Cancer Care</h6>
+                            <p className="h6">Online Appoinment</p>
                             <p className="text-xs">The gradual
                                 accumulation of
-                                information about </p>
+                                information about  </p>
 
                         </div>
                     </div>
                 </div>
 
                 <div className="ds-container-iteam">
-                    <figure className="px-10 pt-10">
-                        <img src={img1} alt="Shoes" className="rounded-xl" />
-                    </figure>
+                    <div className="ds-icon">
+                        <FaNotesMedical className="text-4xl text-white" />
+                    </div>
                     <div className="p-5">
-                        <h6>Cancer Care</h6>
+                        <p className="h6">Painless procedures</p>
                         <p className="text-xs">The gradual
-                            accumulation of
-                            information about </p>
+                                accumulation of
+                                information about  </p>
 
                     </div>
                 </div>

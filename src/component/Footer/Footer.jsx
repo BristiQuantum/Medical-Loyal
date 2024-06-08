@@ -1,9 +1,14 @@
 import { FaPhone } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
+import fa from '../../assets/icon/f.png'
+import ins from '../../assets/icon/i.png'
+import tw from '../../assets/icon/t.png'
 
 
 const Footer = () => {
     return (
-        <div className="bg-[#131c3a] ">
+        <div className="bg-[#155f5f]">
             <footer className="footer page-footer p-10 hidden sm:grid">
                 <nav>
                     <h4 className="footer-title">Company Info</h4>
@@ -35,9 +40,10 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h4 className="footer-title">Get In Touch</h4>
-                    <a className="link link-hover flex items-center gap-2"><FaPhone /><span>+01234567</span></a>
-                    <a className="link link-hover flex items-center gap-2"><FaPhone /><span>+01234567</span></a>
-                    <a className="link link-hover flex items-center gap-2"><FaPhone /><span>+01234567</span></a>
+                    <a className="footer-icon"><FaPhone className="text-[#08d76c] text-lg" /><span>+01234567</span></a>
+                    <a className="footer-icon"><IoLocationSharp className="text-[#08d76c] text-2xl" /><span>4517 Washington Ave. <br /> Manchester,
+                        Kentucky 39495</span></a>
+                    <a className="footer-icon"><MdEmail className="text-[#08d76c] text-xl" /><span>debra.holt@example.com</span></a>
 
                 </nav>
 
@@ -45,14 +51,14 @@ const Footer = () => {
 
 
 
-            <div className="bg-white text-black">
-                <div className="flex justify-between items-center  py-5 page-footer">
-                    <p className="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            <div className="bg-[#fff] text-[#155f5f]">
+                <div className="flex justify-between items-center  py-3 page-footer">
+                    <p className="text-xs">Made With Love By Bristi All Right Reserved  </p>
 
                     <div className="flex items-center gap-3">
-                        <FaPhone />
-                        <FaPhone />
-                        <FaPhone />
+                        <img src={fa} alt="" />
+                        <img src={ins} alt="" />
+                        <img src={tw} alt="" />
                     </div>
                 </div>
             </div>

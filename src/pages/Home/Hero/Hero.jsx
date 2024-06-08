@@ -2,7 +2,7 @@
 
 const Hero = () => {
     return (
-        <div className="hero-bg">
+        <div id="hero" className="hero-bg">
             <div className="set-hero">
                 
                 {/* main content  */}

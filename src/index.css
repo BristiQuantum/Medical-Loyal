@@ -11,8 +11,11 @@
 
     /* common css 
     ---------------------- */
+    html {
+        @apply scroll-smooth
+    }
     body {
-        @apply m-0 p-0 box-border text-base bg-[#078282FF] text-white font-['Montserrat',_sans-serif]
+        @apply m-0 p-0 box-border text-base bg-[#078282FF] text-white font-['Montserrat',_sans-serif] ;
     }
     /* font-family: "Montserrat", sans-serif; */
     p{
@@ -112,19 +115,36 @@
     .specialize {
         @apply set-width py-24 flex flex-col lg:flex-row items-center gap-16 justify-center
     }
+    .ds-container{
+        @apply flex flex-col sm:flex-row items-center gap-6
+    }
     .ds-container-iteam {
-        @apply card text-center text-[#08d76c] sm:text-left w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-transparent shadow-2xl rounded-2xl sm:rounded-3xl  transition-all ease-in-out hover:bg-transparent hover:shadow-2xl hover:bg-[#fff] hover:rounded-none   sm:hover:rounded-3xl hover:text-[#252B42] duration-300 
+        @apply card  text-[#08d76c] sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-transparent shadow-2xl rounded-2xl sm:rounded-3xl  transition-all ease-in-out hover:bg-transparent hover:shadow-2xl hover:bg-[#fff] hover:rounded-none   sm:hover:rounded-none hover:text-[#252B42] duration-300 
+    }
+    .h6 {
+        @apply  text-sm font-bold relative pb-3 mb-3   w-full 
+    }
+    .ds-icon {
+        @apply p-5 m-5 bg-[#95DBE5FF] w-fit rounded-full
     }
 
-    /* expert 
+    /* Team
     --------------------- */
     .expert {
         @apply set-width py-16
     }
+    .team-container {
+        @apply flex flex-wrap md:flex-nowrap justify-center items-center gap-6 my-9
+    }
+    .team-container-iteam {
+        @apply card md:w-56 bg-white text-[#737373] shadow-xl rounded-3xl
+    }
     h5 {
         @apply text-base font-extrabold text-[#1d1d1d]
     }
-
+    .team-icon {
+        @apply card-actions justify-center gap-3 
+    }
 
 
     /* Newsletter 
@@ -132,7 +152,12 @@
     .newsletter {
         @apply set-width py-16 lg:w-1/2 mx-auto
     }
-
+    .input-btn{
+        @apply btn btn-primary bg-[#0B948C] border-[#0B948C] text-[#4bffa2] join-item hover:bg-[#4bffa2] hover:border-[#4bffa2] hover:text-[#0B948C]
+    }
+    .news-input {
+        @apply input input-bordered join-item w-full
+    }
 
 
 /* Footer 
@@ -142,6 +167,9 @@
 }
 h4 {
     @apply text-lg text-white font-semibold 
+}
+.footer-icon {
+    @apply link link-hover flex items-center gap-2 justify-start
 }
 
 

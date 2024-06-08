@@ -6,7 +6,7 @@ import d4 from '../../../assets/icon/d4.png'
 
 const Department = () => {
     return (
-        <div className="department">
+        <div id="department" className="department">
 
             <div className="space-y-3 lg:w-1/2">
                 <Title
