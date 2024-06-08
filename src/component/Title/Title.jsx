@@ -3,7 +3,7 @@
 
 const Title = ({subTitle, title, bar}) => {
     return (
-        <div className="space-y-3">
+        <div className="space-y-1">
             {
                 subTitle && 
                 <p className="small-text">{subTitle}</p>

@@ -1,6 +1,6 @@
 import { IoIosArrowForward } from "react-icons/io";
 import Title from "../../../component/Title/Title";
-import expert from '../../../assets/img/expert.png'
+import vdo from '.././../../assets/vdo/vdo.mp4'
 
 
 const Activity = () => {
@@ -8,7 +8,7 @@ const Activity = () => {
         <div className="activity">
 
             {/* left side  */}
-            <div className=" space-y-3 lg:w-[40%] ">
+            <div className=" activity-left ">
                 <Title
                     bar=''
                     title='Our Activity'
@@ -26,8 +26,11 @@ const Activity = () => {
 
 
             {/* right side  */}
-            <div className="">
-                <img src={expert} alt="" />
+            <div className="activity-righht">
+                <video controls autoPlay className="rounded-3xl ">
+                    <source src={vdo} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
             </div>
 
         </div>

@@ -1,5 +1,8 @@
 import Title from "../../../component/Title/Title";
-import logo from '../../../assets/icon/1.png'
+import d1 from '../../../assets/icon/d1.png'
+import d2 from '../../../assets/icon/d2.png'
+import d3 from '../../../assets/icon/d3.png'
+import d4 from '../../../assets/icon/d4.png'
 
 const Department = () => {
     return (
@@ -18,9 +21,9 @@ const Department = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-16 mx-auto gap-10 w-fit">
 
-                <div className="card w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-white shadow-xl rounded-none text-[#252B42] transition-all ease-in-out hover:bg-[#0E63F4] hover:text-white duration-300">
+                <div className="d-container-iteam">
                     <figure className="px-10 pt-10">
-                        <img src={logo} alt="Shoes" className="rounded-xl" />
+                        <img src={d1} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="p-5">
                         <h6>Cancer Care</h6>
@@ -31,9 +34,9 @@ const Department = () => {
                     </div>
                 </div>
 
-                <div className="card w-fit sm:w-52 h-fit mx-7 sm:mx-0  sm:mt-14 py-5 bg-white shadow-xl rounded-none text-[#252B42] transition-all ease-in-out hover:bg-[#0E63F4] hover:text-white duration-300">
+                <div className="d-container-iteam sm:mt-14 ">
                     <figure className="px-10 pt-10">
-                        <img src={logo} alt="Shoes" className="rounded-xl" />
+                        <img src={d2} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="p-5">
                         <h6>Health Queries</h6>
@@ -44,9 +47,9 @@ const Department = () => {
                     </div>
                 </div>
 
-                <div className="card w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5  bg-white shadow-xl rounded-none text-[#252B42] transition-all ease-in-out hover:bg-[#0E63F4] hover:text-white duration-300">
+                <div className="d-container-iteam">
                     <figure className="px-10 pt-10">
-                        <img src={logo} alt="Shoes" className="rounded-xl" />
+                        <img src={d3} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="p-5">
                         <h6>Quick examination</h6>
@@ -57,9 +60,9 @@ const Department = () => {
                     </div>
                 </div>
 
-                <div className="card sm:mt-14 w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5  bg-white shadow-xl rounded-none text-[#252B42] transition-all ease-in-out hover:bg-[#0E63F4] hover:text-white duration-300">
+                <div className="d-container-iteam sm:mt-14 ">
                     <figure className="px-10 pt-10">
-                        <img src={logo} alt="Shoes" className="rounded-xl" />
+                        <img src={d4} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="p-5">
                         <h6>Online Appoinment</h6>

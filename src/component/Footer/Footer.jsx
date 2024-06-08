@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className="bg-[#131c3a] ">
-            <footer className="footer page-footer p-10 hidden sm:block">
+            <footer className="footer page-footer p-10 hidden sm:grid">
                 <nav>
                     <h4 className="footer-title">Company Info</h4>
                     <a className="link link-hover">About us</a>

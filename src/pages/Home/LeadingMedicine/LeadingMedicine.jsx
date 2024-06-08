@@ -1,6 +1,6 @@
 import { IoIosArrowForward } from "react-icons/io";
 import Title from "../../../component/Title/Title";
-import medicin from '../../../assets/img/medicin.png'
+import medicin from '../../../assets/img/f.png'
 
 const LeadingMedicine = () => {
     return (

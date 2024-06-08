@@ -1,6 +1,6 @@
 import { IoIosArrowForward } from "react-icons/io";
 import Title from "../../../component/Title/Title";
-import img1 from '../../../assets/icon/1.png'
+import img1 from '../../../assets/icon/d1.png'
 
 
 const DoctorSpecialize = () => {
