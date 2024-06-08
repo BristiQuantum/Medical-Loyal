@@ -19,7 +19,7 @@ const Department = () => {
             </div>
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-16 mx-auto gap-10 w-fit">
+            <div className="d-container">
 
                 <div className="d-container-iteam">
                     <figure className="px-10 pt-10">

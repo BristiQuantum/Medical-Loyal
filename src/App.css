@@ -48,7 +48,21 @@ h6::after {
 }
 
 
+.specialize h6::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 2px;
+    background-color: #08d76c;
+}
 
+@media (max-width: 640px) {
+    .specialize h6::after {
+        display: none;
+    }
+}
 
 
 

@@ -1,6 +1,7 @@
 import { IoIosArrowForward } from "react-icons/io";
 import Title from "../../../component/Title/Title";
 import img1 from '../../../assets/icon/d1.png'
+import { FaHandHoldingHeart } from "react-icons/fa";
 
 
 const DoctorSpecialize = () => {
@@ -25,10 +26,12 @@ const DoctorSpecialize = () => {
 
             <div className="flex flex-col sm:flex-row items-center gap-6 ">
                 <div className="space-y-6">
-                    <div className="card w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-white shadow-xl rounded-none text-[#252B42] transition-all ease-in-out hover:bg-[#0E63F4] hover:text-white duration-300">
-                        <figure className="px-10 pt-10">
-                            <img src={img1} alt="Shoes" className="rounded-xl" />
-                        </figure>
+                    <div className="ds-container-iteam">
+                        
+                        <div className="p-5 m-5 bg-[#95DBE5FF] w-fit rounded-full">
+                        <FaHandHoldingHeart className="text-4xl text-white"/>
+                        </div>
+                        
                         <div className="p-5">
                             <h6>Cancer Care</h6>
                             <p className="text-xs">The gradual
@@ -37,7 +40,7 @@ const DoctorSpecialize = () => {
 
                         </div>
                     </div>
-                    <div className="card w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-white shadow-xl rounded-none text-[#252B42] transition-all ease-in-out hover:bg-[#0E63F4] hover:text-white duration-300">
+                    <div className="ds-container-iteam">
                         <figure className="px-10 pt-10">
                             <img src={img1} alt="Shoes" className="rounded-xl" />
                         </figure>
@@ -51,7 +54,7 @@ const DoctorSpecialize = () => {
                     </div>
                 </div>
 
-                <div className="card w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-white shadow-xl rounded-none text-[#252B42] transition-all ease-in-out hover:bg-[#0E63F4] hover:text-white duration-300">
+                <div className="ds-container-iteam">
                     <figure className="px-10 pt-10">
                         <img src={img1} alt="Shoes" className="rounded-xl" />
                     </figure>

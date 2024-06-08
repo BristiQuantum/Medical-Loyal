@@ -93,6 +93,9 @@
     .department {
         @apply set-width py-16
     }
+    .d-container{
+        @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-16 mx-auto gap-10 w-fit
+    }
     .d-container-iteam {
         @apply card text-center sm:text-left w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-[#fff] shadow-xl rounded-2xl sm:rounded-none text-[#252B42] transition-all ease-in-out hover:bg-transparent hover:shadow-2xl hover:text-white hover:rounded-none   sm:hover:rounded-3xl duration-300 
     }
@@ -108,6 +111,9 @@
     -------------------------- */
     .specialize {
         @apply set-width py-24 flex flex-col lg:flex-row items-center gap-16 justify-center
+    }
+    .ds-container-iteam {
+        @apply card text-center text-[#08d76c] sm:text-left w-fit sm:w-52 h-fit mx-7 sm:mx-0  py-5 bg-transparent shadow-2xl rounded-2xl sm:rounded-3xl  transition-all ease-in-out hover:bg-transparent hover:shadow-2xl hover:bg-[#fff] hover:rounded-none   sm:hover:rounded-3xl hover:text-[#252B42] duration-300 
     }
 
     /* expert 
